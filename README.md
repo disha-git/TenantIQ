@@ -21,7 +21,7 @@ A comprehensive, production-ready AI helpdesk assistant **TenantIQ** featuring a
 - **Ollama (`llama3.2:1b`)** (Local LLM for generative responses) <img src="https://cdn.simpleicons.org/ollama/ffffff" width="22">
 - **LangChain & ChromaDB** (Vector Database for RAG)  <img src="https://www.trychroma.com/favicon.ico" width="22">
 - **Sentence-Transformers** (`all-MiniLM-L6-v2` for embeddings) <img src="https://huggingface.co/front/assets/huggingface_logo.svg" width="22">
-- **SQLite & SQLAlchemy** (Logging and system of record) <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="22">
+- **MySQL & SQLAlchemy** (Logging and system of record) <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="22">
 - **APScheduler** (Automated web crawling) 
 
 ---
