@@ -14,7 +14,7 @@ def log_interaction(
     session_id: str = None,
 ):
     """
-    Saves a single chat interaction to the SQLite database.
+    Saves a single chat interaction to the MySQL database.
     """
     try:
         log_entry = ChatLog(

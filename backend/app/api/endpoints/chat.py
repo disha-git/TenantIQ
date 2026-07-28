@@ -78,7 +78,7 @@ async def chat_endpoint(request: ChatRequest, db: Session = Depends(get_db)):
     4. Otherwise                       → RAG retrieval + LLM generation
        - If RAG chunks are relevant   → LLM uses them as context
        - If RAG chunks are weak       → LLM answers from own knowledge
-    5. Log everything to SQLite
+    5. Log everything to MySQL
     6. Store conversation turn in memory
     """
     raw_query = request.query.strip()

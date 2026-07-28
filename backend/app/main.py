@@ -10,9 +10,9 @@ import app.models.log  # Import models so Base knows about them
 async def lifespan(app: FastAPI):
     print("Starting up the FastAPI backend...")
 
-    # Create SQLite database tables
+    # Create MySQL database tables
     Base.metadata.create_all(bind=engine)
-    print("SQLite database tables created.")
+    print("MySQL database tables verified/created.")
 
     start_scheduler()
     yield
